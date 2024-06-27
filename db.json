@@ -1,3 +1,12 @@
 {
-  "usuarios": []
+  "usuarios": [
+    {
+      "id": "c4b8fed4-65e9-486a-aadc-8fad0dddcd6e",
+      "nome": "João",
+      "altura": 1.9,
+      "peso": 90,
+      "imc": "24.93",
+      "situacao": "Acima do peso"
+    }
+  ]
 }
