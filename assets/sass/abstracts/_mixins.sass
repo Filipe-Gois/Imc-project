@@ -1,0 +1,47 @@
+@use "../abstracts/_variables" as variables
+
+@mixin title-typography()
+    text-align: center
+    font-family: variables.$font-title
+    text-transform: uppercase
+    font-size: variables.$font-size-title
+
+@mixin body-typography($padding:5vh 5vw)
+    font-family: variables.$font-text, sans-serif
+    padding: $padding
+    font-size: variables.$font-size-text
+
+@mixin flex-center($direction: row, $align-items: center)
+    display: flex
+    justify-content: center
+    align-items: $align-items
+    flex-direction: $direction
+
+@mixin input-style($background: variables.$white-color)
+    border-radius: 10px
+    background-color: $background
+    font-family: variables.$font-text
+    border: none
+    height: 15%
+    padding: 20px
+    color: variables.$primary-colorv-1
+    &:focus-visible
+        outline-color: variables.$primary-colorv-1
+        // outline-width: 5px
+
+    &::placeholder
+        color: variables.$primary-colorv-1
+
+@mixin button-box-style()
+    gap: 20px
+    display: flex
+    justify-content: flex-end
+    width: 100%
+    height: max-content
+
+@mixin table-tr-style()
+
+@mixin table-th-style()
+    width: 20%
+    background-color: variables.$primary-color-v2
+    color: variables.$white-color

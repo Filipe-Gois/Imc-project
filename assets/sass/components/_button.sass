@@ -1,0 +1,15 @@
+@use "../abstracts/_variables" as variables
+@use "../abstracts/_mixins" as mixins
+
+.btncontainer
+    @include mixins.button-box-style()
+
+    button
+        border: none
+        border-radius: 20px
+        color: variables.$white-color
+        height: 40px
+        width: 20%
+        font-size: variables.$font-size-text
+        background-color: variables.$primary-color-v2
+        cursor: pointer

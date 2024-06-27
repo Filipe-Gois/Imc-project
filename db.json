@@ -1,0 +1,12 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nome": "Filipe",
+      "peso": 60,
+      "altura": 1.7,
+      "imc": 20.76,
+      "situacao": "Normal"
+    }
+  ]
+}

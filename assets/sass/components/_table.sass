@@ -1,0 +1,24 @@
+@use "../abstracts/_variables" as variables
+@use "../abstracts/_mixins" as mixins
+
+table
+    width: 100%
+    height: max-content
+    border: 2px solid variables.$primary-colorv-1
+    thead
+        width: 100%
+        height: 40px
+
+        tr
+
+            th
+                @include mixins.table-th-style()
+    #cadastro
+        min-height: min-content
+
+        tr
+            height: 40px
+
+            td
+                @include mixins.table-th-style()
+                text-align: center
