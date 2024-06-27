@@ -115,5 +115,8 @@ table #cadastro tr td {
   color: #FFF;
   text-align: center;
 }
+table #cadastro tr .trash-delete-btn {
+  cursor: pointer;
+}
 
 /*# sourceMappingURL=main.css.map */
