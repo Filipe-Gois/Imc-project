@@ -46,20 +46,20 @@
     <li><strong>Linguagem:</strong> JavaScript Puro</li>
     <li><strong>Estilização:</strong> SASS</li>
 </ul>
-<h2>📸 Exemplos Visuais do Aplicativo</h2>
-<div>
-    <figure style="display: flex; flex-direction: column; align-items: center;">
-        <!-- <figcaption style="font-size: 30px;">Tela de Cálculo de IMC</figcaption> -->
-        <img src="assets/images/imc-calculator-screen.png" alt="Tela de Cálculo de IMC" style="width: 300px; height: 600px; object-fit: cover;">
-    </figure>
-    <figure style="display: flex; flex-direction: column; align-items: center;">
-        <!-- <figcaption style="font-size: 30px;">Tela de Registros de Usuários</figcaption> -->
-        <img src="assets/images/user-records-screen.png" alt="Tela de Registros de Usuários" style="width: 300px; height: 600px; object-fit: cover;">
-    </figure>
-</div>
 <h2>👥 Desenvolvedor</h2>
 <ul>
     <li><a href="https://www.linkedin.com/in/filipe-góis-841b58206/" target="_blank"><strong>Filipe Góis</strong></a> - Desenvolvedor Full Stack</li>
 </ul>
+    <h2>📸 Exemplos Visuais do Aplicativo</h2>
+<div>
+    <figure style="display: flex; flex-direction: column; align-items: center;">
+        <!-- <figcaption style="font-size: 30px;">Tela de Cálculo de IMC</figcaption> -->
+        <img src="assets/images/readme/imagem1CalculadoraImc.png" alt="Tela de Cálculo de IMC" >
+    </figure>
+    <figure style="display: flex; flex-direction: column; align-items: center;">
+        <!-- <figcaption style="font-size: 30px;">Tela de Registros de Usuários</figcaption> -->
+        <img src="assets/images/readme/imagem2CalculadoraImc.png" alt="Tela de Registros de Usuários" >
+    </figure>
+</div>
 </body>
 </html>
